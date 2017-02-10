@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		header, footer {
+			padding: 5em;
+			background-color: #6798FD;
+		}
+
+		nav{
+			float: left;
+			margin-top: 100px;
+    		margin-right: 10px;
+		}
+
+		article {
+			padding: 1em;
+    		border-left: 2px solid #4641D9;
+			overflow: hidden;
+    		background-color: #FFC4EB;
+		}
+	</style>
+</head>
+<body>
+	<div class="frame">
+	<header></header>
+	<nav>
+		<a href="http://new.sungshin.ac.kr/web/kor/home">
+		<img src="me.jpg" width="250px" height="250px"></a>
+	</nav>
+	<article>
+		<h2 style="color:#4641D9;">김소현</h2>
+		<p>소속 : CADI 5기 개발W</p>
+		<p>학교 : 성신여자대학교</p>
+		<p>학과 : IT학부</p>
+		<p>전공 : 컴퓨터 소프트웨어 전공</p>
+		<p>학번 : 15</p>
+		<br>
+		<h4>제작하고 싶은 페이지 : 대학생들의 효율적인 시험공부를 돕는 캘린더 페이지</h4>
+		<p style="font-size:120%;">
+			설명 : 보통 대학생들의 시험공부는 시험 2주 전부터 진행이 되므로, 2주 전부터 시험 당일까지의 일정을 캘린더 형식으로 보여줍니다. 해당 날짜 캘린더를 클릭하면 그 날짜의 할 일을 리스트 형식으로 작성할 수 있습니다. 할 일을 등록하면 일정과 관련된 학습 사이트를 추천해줍니다.<br>
+			예를 들어, 2월 10일을 클릭하고 ‘html 기본 태그 공부하기’를 작성하면 해당 일정이 캘린더에 등록되고, html에 관련된 학습 사이트를 보여줍니다.
+		</p>
+	</article>
+	<footer></footer>
+	</div>
+</body>
+</html>
