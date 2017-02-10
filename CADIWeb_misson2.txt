@@ -6,7 +6,7 @@
 	<style type="text/css">
 		header, footer {
 			padding: 5em;
-			background-color: #6798FD;
+			background-color: #151278;
 		}
 
 		nav{
@@ -17,9 +17,9 @@
 
 		article {
 			padding: 1em;
-    		border-left: 2px solid #4641D9;
+    		border-left: 2px solid #030066;
 			overflow: hidden;
-    		background-color: #FFC4EB;
+    		background-color: #D9E5FF;
 		}
 	</style>
 </head>
@@ -31,7 +31,7 @@
 		<img src="me.jpg" width="250px" height="250px"></a>
 	</nav>
 	<article>
-		<h2 style="color:#4641D9;">김소현</h2>
+		<h2 style="color:#030066;">김소현</h2>
 		<p>소속 : CADI 5기 개발W</p>
 		<p>학교 : 성신여자대학교</p>
 		<p>학과 : IT학부</p>
