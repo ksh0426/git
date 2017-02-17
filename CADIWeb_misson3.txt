@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>naver form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<center>
+	<form>
+		<h1>NAVER</h1>
+		<fieldset style="width:300; height:110">
+			<input type="text" name="ID" placeholder="아이디" required><br><br>
+			<input type="password" name="PW" placeholder="비밀번호" required><br><br>
+			<input type="password" name="ck_PW" placeholder="비밀번호 재확인" required>
+		</fieldset>
+
+		<fieldset style="width:300; height:150">
+			<input type="text" name="name" placeholder="이름" required><br><br>
+			<input type="radio" name="gender" value="man">남자
+			<input type="radio" name="gender" value="woman">여자
+			<br><br>
+			<input type="text" value="생일" size="2" readonly>
+			<input type="text" name="year" placeholder="년(4자)" size="6" required>
+			<select>
+				<option>월</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>
+			<input type="text" name="day" placeholder="일" size="6" required>
+			<br><br>
+			<input type="email" name="email" placeholder="본인확인 이메일(선택)">
+		</fieldset>
+
+		<fieldset style="width:300; height:80">
+			<select>
+				<option>+82</option>
+			</select>
+			<input type="tel" name="tel_num" placeholder="휴대전화번호" required>
+			<input type="button" value="인증">
+			<br><br>
+			<input type="text" name="num" placeholder="인증번호" required>
+			<input type="button" value="확인">
+		</fieldset>
+		<br><br>
+		<button style="width:300; height:50; font-size:130%">가입하기</button>
+	</form>
+	</center>
+</body>
+</html>
