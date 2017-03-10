@@ -1,0 +1,73 @@
+		* {
+			font-size: 15px;
+		}
+
+		#logo {
+			margin: 50;
+			width: 240;
+			height: 50;
+		}
+
+		.con {
+			margin: 10;
+		}
+
+		.form {
+			border: 1px solid silver;
+			width: 450;
+			height: 50;
+		}
+
+		input {
+			margin: 10;
+			border-style: none;
+			width: 430;
+			height: 30;
+		}
+
+		#domain {
+			width: 90;
+			color: gray;
+		}
+
+		img {
+			width: 20;
+			height: 20;
+		}
+
+		.sex {
+			margin: 10;
+			width: 200;
+			height: 30;
+		}
+
+		button {
+			margin: 5;
+			border: 1px solid silver;
+			width: 100;
+			height: 30;
+			background: white;
+		}
+
+		.sex:active {
+			border-color: #35B62C;
+			color: #35B62C;
+		}
+
+		.m {
+			margin-right: 0;
+		}
+
+		.f {
+			margin-left: 0;
+		}
+
+		#join {
+			margin: 0;
+			border-style: none;
+			width: 450;
+			height: 60;
+			background: #35B62C;
+			color: white;
+			font-size:130%
+		}
