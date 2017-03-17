@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>facebook form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="facebook.css">
+</head>
+<body>
+	<div id="header">
+		<span><img src="logo.PNG"></span>
+		<form>
+		<table id="t1">
+		<tr>
+			<td>이메일 또는 휴대폰</td>
+			<td>비밀번호</td>
+		</tr>
+		<tr>
+			<td><input class="sin" type="email"></td>
+			<td><input class="sin" type="password"></td>
+			<td><input id="b1" type="button" value="로그인"></td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.facebook.com/login/identify?ctx=recover&lwv=110">계정을 잊으셨나요?</a>
+			</td>
+		</tr>
+		</table>
+	</form>
+	</div>
+	<div id="section">
+	<div id="left">
+		<div>
+		<b>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</b>
+		</div>
+		<img src="facebook.png">
+	</div>
+	<div id="right">
+		<form>
+		<table>
+			<tr>
+				<td id="main">가입하기</td>
+			</tr>
+			<tr>
+				<td colspan="2">항상 지금처럼 무료로 즐기실 수 있습니다.</td>
+			</tr>
+			<tr>
+				<td><br><input class="f name" type="text" placeholder="성(姓)"></td>
+				<td><br><input class="f name" type="text" placeholder="이름(성은 제외)"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="f" type="email" placeholder="휴대폰 번호 또는 이메일"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="f" type="password" placeholder="새 비밀번호"></td>
+			</tr>
+			<tr>
+				<td>생일</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<select>
+					<option>연도</option>
+				</select>
+				<select>
+					<option>월</option>
+					<option>1월</option>
+					<option>2월</option>
+					<option>3월</option>
+					<option>4월</option>
+					<option>5월</option>
+					<option>6월</option>
+					<option>7월</option>
+					<option>8월</option>
+					<option>9월</option>
+					<option>10월</option>
+					<option>11월</option>
+					<option>12월</option>
+				</select>
+				<select>
+					<option>일</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+				</select>
+					<a>왜 생년월일을 입력해야 하나요?</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<br>
+				<input type="radio" value="female"> 여성
+				<input type="radio" value="male"> 남성
+				</td>
+			</tr>
+			<tr>
+				<td id="des" colspan="2">
+					<br>
+					계정 만들기 버튼을 클릭하면, Facebook의 약관에 동의하며 쿠기사용을 포함한
+				    Facebook 데이터 정책을 읽었음을 인정하게 됩니다. Facebook으로부터 SMS
+				    알림을 받을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.
+				</td>
+			</tr>
+			<tr>
+				<td><br><input id="b2" type="button" value="계정 만들기"></td>
+			</tr>
+			<tr>
+				<td id="g" colspan="2"><br>유명인, 밴드, 비즈니스를 위한 <a href="https://www.facebook.com/pages/create/?ref_type=registration_form">페이지 만들기</a></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
